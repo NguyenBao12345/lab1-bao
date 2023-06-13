@@ -4,9 +4,9 @@ public class lab1{
     Scanner sc = new Scanner(System.in);
     int a = sc.nextInt();
     int b = sc.nextInt();
-    substract(a, b);
+    add(a, b); 
   }
-  static void substract(int a, int b ){
-    System.out.println(a-b);
+  public static void add(int a, int b){
+    System.out.println(a+b);
   }
 } 
